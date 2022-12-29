@@ -1,0 +1,65 @@
+
+   body {
+    background-color: darkgreen;
+    }
+    h1{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-style: oblique;
+        color: darkblue;
+    }
+    #button {
+        margin: auto;
+        display: grid;
+        text-align: center;
+        height: 50px;
+        width: 250px ;
+        font-size: large;
+        display: flex;
+
+
+    }
+    .output {
+        margin: auto;
+        margin-top: 40px;
+        display: grid;
+        height: 50px;
+        text-align: center;
+        width: 250px ;
+        text-indent: 90px;
+        font-size: large;
+        display: flex;
+        color: rgb(0, 0, 0);
+        
+
+    }
+    #result {
+        margin: auto;
+        margin-top: 40px;
+        display: grid;
+        height: 50px;
+        text-align: center;
+        width: 250px ;
+        font-size: large;
+        display: flex;
+        color: rgb(6, 6, 6);
+        
+    }
+    #btn2 {
+        margin: auto;
+        margin-top: 40px;
+        display: grid;
+        height: 50px;
+        text-align: center;
+        width: 250px ;
+        text-indent: 90px;
+        font-size: large;
+        display: flex;
+        color: tan;
+    }
+    #form-elements{
+        display: grid;
+        place-items: center;
+        margin-top: 30px;
+    }
