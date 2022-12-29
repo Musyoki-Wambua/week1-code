@@ -1,14 +1,20 @@
-
    body {
     background-color: darkgreen;
     }
     h1{
         text-align: center;
         margin-top: 20px;
-        font-size: 30px;
+        font-size: 25px;
         font-style: oblique;
         color: darkblue;
     }
+    .card{
+        align-items: center;
+        object-fit: contain;
+        width: 50vh;
+        height: 25vh;
+    }
+
     #button {
         margin: auto;
         display: grid;
@@ -17,8 +23,6 @@
         width: 250px ;
         font-size: large;
         display: flex;
-
-
     }
     .output {
         margin: auto;
@@ -31,8 +35,6 @@
         font-size: large;
         display: flex;
         color: rgb(0, 0, 0);
-        
-
     }
     #result {
         margin: auto;
@@ -44,7 +46,6 @@
         font-size: large;
         display: flex;
         color: rgb(6, 6, 6);
-        
     }
     #btn2 {
         margin: auto;
