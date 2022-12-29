@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+
+    const backBtn = document.getElementById('backBtn');
+  backBtn.addEventListener('click', () => {
+    window.location.href = 'http://127.0.0.1:5501/homepage.html';
+  });
+  
     const form = document.getElementById('form-elements');
       form.addEventListener ('submit', (event) => {
         event.preventDefault ();

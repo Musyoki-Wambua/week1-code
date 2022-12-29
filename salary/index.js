@@ -8,6 +8,12 @@ const payeeOutput = document.getElementById('payee');
 const nhifOutput = document.getElementById('nhif');
 const netSalaryOutput = document.getElementById('netSalary');
 
+const backBtn = document.getElementById('backBtn');
+  backBtn.addEventListener('click', () => {
+    window.location.href = 'http://127.0.0.1:5501/homepage.html';
+  });
+  
+
 
 function netSalaryCalculator (){
     // listing NHIF contribution

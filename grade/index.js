@@ -1,5 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  const backBtn = document.getElementById('backBtn');
+  backBtn.addEventListener('click', () => {
+    window.location.href = 'http://127.0.0.1:5501/homepage.html';
+  });
+  
+
+
     const form = document.getElementById("form-elements");
 
     // Attach an event listener to the form's submit event
@@ -42,6 +49,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Clear the result
     result.innerHTML = "Result: ";
   });
+
+
+
+
+
 
 
 
