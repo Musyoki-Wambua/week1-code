@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const backBtn = document.getElementById('backBtn');
   backBtn.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5501/homepage.html';
+    window.location.href = 'https://week1-code.vercel.app/';
   });
   
 
