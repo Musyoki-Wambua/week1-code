@@ -1,0 +1,23 @@
+{
+  "name": "week1-code",
+  "version": "1.0.0",
+  "description": "Code Challenge ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Musyoki-Wambua/week1-code.git"
+  },
+  "keywords": [
+    "Code",
+    "Challenge"
+  ],
+  "author": "Joseph Wambua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Musyoki-Wambua/week1-code/issues"
+  },
+  "homepage": "https://github.com/Musyoki-Wambua/week1-code#readme"
+}
