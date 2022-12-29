@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const points = document.getElementById('result');
 
             if (speed <0 || speed > 360) {
-                points.innerHTML = "Invalid Speed";
+                points.innerHTML = "Invalid Speed!";
                 return;
             }else  if (speed <= 70 ){
                 points.innerHTML = "OK"    

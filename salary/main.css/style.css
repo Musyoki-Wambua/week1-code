@@ -1,0 +1,16 @@
+body{
+    background-color: darkmagenta;
+}
+#card-holder{
+    background-color:rgb(132, 202, 91);
+    color: orangered;
+}
+#form-elements {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-top: 20px;
+    font-style: oblique;
+}
